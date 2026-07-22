@@ -118,11 +118,8 @@ function parse(str){
 
     const l = ["hundred", "thousand", "million"];
 
-    if(str.startsWith("minus")){
-
-        return -parse(str.slice(-(str.length - 5)).trim());
-
-    }
+    if(str.startsWith("minus")) return -parse(str.slice(-(str.length - 5)).trim());
+    else if(str.startsWith("negative")) return -parse(str.slice(-(str.length - 8)).trim());
     else if(str.split(" ").includes("point")){
 
         const mod = parse(str.split("point")[0].trim());
