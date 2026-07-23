@@ -1,5 +1,5 @@
 # WordToNum
-A short program that converts a number entered in English words to a numerical value.
+A short program that converts a number entered in English words to a numerical value.<br>
 ⚠️ IMPORTANT: This project is very early in development and is prone to errors.
 <br>Supports all real numbers
 
